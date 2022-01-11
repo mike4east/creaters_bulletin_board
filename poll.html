@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>creater's wishlist poll</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/pollbox.css">
+</head>
+
+
+<body class="body">
+
+  <header>
+    
+    <div class="header_wrapper" >
+      <img src="./img/icon.png" alt="サイトのアイコン" id="icon">
+      <nav>
+        <ul class="nav__list">
+          <li class="nav_item"><a href="#About" class="link">ABOUT</a> </li>
+          <li class="nav_item"><a href="#Course" class="link">CREATERS</a> </li>
+          <li class="nav_item"><a href="#News" class="link">OFFER</a> </li>
+          <li class="nav_item"><a href="#Access" class="link">ENTRY</a> </li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+        <section id="About" class="section">
+          <div class="text__center">
+            <h1 class="yellow__title">コナン（POLL）</h1>
+
+            <img src="./img/konan other.png" alt="コナンイラスト" class="creaters_photo">
+            
+ 
+        
+                <p>下に希望カテゴリがある場合は、押して応援しよう！<br>
+                  新しい可能性やより具体的な案件に繋げたい場合は下から選択、記載しよう!!</p>
+
+            <div class="wrapper">
+                <div class="l-container">
+                  <h2 class="title"></h2>
+                  <div class="grid">
+                    <div class="grid__inner">
+                      <div class="grid__item">
+                        <div class="js-post count" data-initial="first">
+                          <p class="count__name js-name-first">美容</p>
+                          <p class="count__num js-count js-count-first">0</p>
+                        </div>
+                      </div>
+                      <div class="grid__item">
+                        <div class="js-post count" data-initial="second">
+                          <p class="count__name js-name-second">食品</p>
+                          <p class="count__num js-count js-count-second">0</p>
+                        </div>
+                      </div>
+                      <div class="grid__item">
+                        <div class="js-post count" data-initial="third">
+                          <p class="count__name js-name-third">ボードゲーム</p>
+                          <p class="count__num js-count js-count-third">0</p>
+                        </div>
+                      </div>
+                      <div class="grid__item">
+                        <div class="js-post count" data-initial="fourth">
+                          <p class="count__name js-name-fourth">恋愛</p>
+                          <p class="count__num js-count js-count-fourth">0</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <section id="POLL" class="form-wrapper"
+                  <div class="text__center">
+                    <h1 class="poll__title">新規カテゴリー・案件追加</h1>
+                        <form action="#" method="post">
+                          <dl class="form-inner border_design_plus"> 
+                            <dt class="form-title check-radio">大カテゴリー</dt>
+                            <dd class="form-item"> 
+                              <select name="oppurtunity" id="oppurtunity" class="form-parts"> 
+                              <option disabled selected value=""></option>
+                              <option value="">映画とアニメ</option>
+                              <option value="">自動車、乗り物</option> 
+                              <option value="">音楽</option>
+                              <option value="">ペットと動物</option>
+                              <option value="">スポーツ</option> 
+                              <option value="">旅行とイベント</option> 
+                              <option value="">ゲーム</option>
+                              <option value="">ブログ</option> 
+                              <option value="">コメディ</option>
+                              <option value="">エンターテイメント</option>
+                              <option value="">ニュースと政治</option> 
+                              <option value="">ハウツーとスタイル</option>
+                              <option value="">教育</option>
+                              <option value="">科学と技術</option> 
+                              <option value="">非営利団体と社会活動</option>
+                              <option value="">その他</option> 
+                              </select>
+                            </dd>
+                              <dt class="form-title">その他内容(選択時)</dt>
+                              <dd class="form-item"><input type="text" name="name" class="form-parts"></dd>
+                              <dt class="form-title check-radio">中カテゴリー</dt>
+                              <dd class="form-item"> 
+                                <select name="oppurtunity" id="oppurtunity" class="form-parts"> 
+                                <option disabled selected value=""></option>
+                                <option value="">映画とアニメ</option>
+                                <option value="">自動車、乗り物</option> 
+                                <option value="">音楽</option>
+                                <option value="">ペットと動物</option>
+                                <option value="">スポーツ</option> 
+                                <option value="">旅行とイベント</option> 
+                                <option value="">ゲーム</option>
+                                <option value="">ブログ</option> 
+                                <option value="">コメディ</option>
+                                <option value="">エンターテイメント</option>
+                                <option value="">ニュースと政治</option> 
+                                <option value="">ハウツーとスタイル</option>
+                                <option value="">教育</option>
+                                <option value="">科学と技術</option> 
+                                <option value="">非営利団体と社会活動</option>
+                                <option value="">その他</option> 
+                                </select>
+                              </dd>
+                              <dt class="form-title">その他内容(選択時)</dt>
+                              <dd class="form-item"><input type="text" name="kana" class="form-parts"></dd>
+                              <dt class="form-title">具体的な商品・サービス(任意)</dt>
+                              <dd class="form-item"><input type="text" name="company" class="form-parts"></dd>
+       
+                              <dt class="form-title check-radio">具体的アイディア(任意)</dt>
+                              <dd class="form-item"><textarea name="detail" id="detail" cols="30" rows="10" class="form-parts"></textarea></dd>
+                          </dl>
+                          <input type="submit" class="btn send" value="送信">
+                        </form>
+                 </div>
+                </section>
+              <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+              
+              
+              
+              <script type="module">
+                // Import the functions you need from the SDKs you need
+                import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js";
+                // TODO: Add SDKs for Firebase products that you want to use
+                // https://firebase.google.com/docs/web/setup#available-libraries
+              
+                // Your web app's Firebase configuration
+                const firebaseConfig = {
+                  apiKey: "",
+                  authDomain: "javascript-project-661dd.firebaseapp.com",
+                  databaseURL: "https://javascript-project-661dd-default-rtdb.firebaseio.com",
+                  projectId: "javascript-project-661dd",
+                  storageBucket: "javascript-project-661dd.appspot.com",
+                  messagingSenderId: "287121051648",
+                  appId: "1:287121051648:web:f03b9880635531a34788e5"
+                };
+              
+                // Initialize Firebase
+                const app = initializeApp(firebaseConfig);
+
+              firebase.initializeApp({databaseURL: "https://javascript-project-661dd-default-rtdb.firebaseio.com/"});
+              
+              let database = firebase.database(); //firebase初期化
+              let refCount = database.ref('count');
+              let $post = $('.js-post');
+              let $count = $('.js-count');
+              let countObj = {
+                'first': 0,
+                'second': 0,
+                'third': 0,
+                'fourth': 0
+              };
+              let countStop = false;
+              let $layer = $('.js-layer');
+              let $layerLoading = $('.js-layer-loading');
+              
+              /*
+               * View
+               * ・カウント表示
+               */
+              let defRenderCount = (countObj) => {
+                let $targetCountObj = $(`.js-count-${countObj.id}`);
+              
+                $targetCountObj.text(countObj.value);
+              };
+              
+              let renderCount = (countObj) => {
+                for (let key in countObj){
+                  if(parseInt($(`.js-count-${key}`).text(), 10) !== countObj[key]) {
+                    let $targetCountObj = $(`.js-count-${key}`);
+                    let $targetCountObjPost = $targetCountObj.closest('.js-post');
+              
+                    $targetCountObj.text(countObj[key]);
+                  }
+                }
+              };
+              
+              let postActionCount = (initial, countVal) => {
+                let arg = {};
+                arg[initial] = countVal;
+                show();
+                refCount.update(arg).then((res)=>{
+                  setTimeout(() => {
+                    hide();
+                  }, 300);
+                });
+              };
+              
+              /*
+               * クリックイベント
+               * ・ボタンクリック
+               * ・初期読み込み
+               * ・pushイベント検知
+               */
+              $post.on('click', (e) => {
+                if (countStop) {
+                  return;
+                }
+                let initial = $(e.currentTarget).data('initial');
+                countObj[initial] = countObj[initial] + 1;
+                postActionCount(initial, countObj[initial]);
+              });
+              
+              refCount.on("child_added", (snapshot) => {
+                // データベースと同期
+                countObj[snapshot.key] = snapshot.val();
+              
+                defRenderCount({
+                  id: snapshot.key,
+                  value: snapshot.val()
+                });
+              });
+              
+              refCount.on("value", (snapshot) => {
+                let snapshotObj = snapshot.val();
+              
+                // データベースと同期
+                for (let key in snapshotObj){
+                  countObj[key] = snapshotObj[key];
+                }
+              
+                renderCount(snapshot.val());
+              });
+              
+              /*
+               * その他
+               */
+              let show = () => {
+                $layer.removeClass('dn');
+                $layerLoading.removeClass('dn');
+                $layer.addClass('is-show');
+              };
+              
+              let hide = () => {
+                $layer.removeClass('is-show').one(TRANSITION_END, () => {
+                  $layerLoading.addClass('dn');
+                  $layer.addClass('dn');
+                });
+              };
+
+        </script>
+        </main>
+
+        <footer class="footer">
+          <small class="copyrights"> copyrights 2022 Creater's Wishlist Tokyo All Rights Reserved.</small>
+        </footer>
+      
+        <!-- ここから上にコードを書く -->
+        <!-- この中に記述していく -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/main.js"></script>
+      </body>
+      
+      </html>
+    

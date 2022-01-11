@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>creater's wishlist offer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body class="body">
+
+  <header>
+    
+    <div class="header_wrapper" >
+      <img src="./img/icon.png" alt="サイトのアイコン" id="icon">
+      <nav>
+        <ul class="nav__list">
+          <li class="nav_item"><a href="./index.html" class="link">ABOUT</a> </li>
+          <li class="nav_item"><a href="./index.html" class="link">CREATERS</a> </li>
+          <li class="nav_item"><a href="./offer.html" class="link">OFFER</a> </li>
+          <li class="nav_item"><a href="./entry.html" class="link">ENTRY</a> </li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <section id="Contact" class="section_form">
+        <h1 class="yellow__title">OFFER</h1>
+        <div class="form-wrapper">
+    
+            <p>デジタルプロモーションを行いたいけど、<br>
+              サービス・商品の潜在層に刺さるクリエイターを使いたい。</p>
+    
+            <p>Virtual・リアル問わず、提携事務所に所属している、又はフリーのクリエイター、<br>
+                ファンの声に基づいて、適正な案件との紐付けを行わせていただきます。
+              </p>
+
+        
+              <form action="#" method="post">
+                <dl class="form-inner border_design"> 
+                    <dt class="form-title">お名前</dt>
+                    <dd class="form-item"><input type="text" name="name" class="form-parts"></dd>
+                    <dt class="form-title">カナ</dt>
+                    <dd class="form-item"><input type="text" name="kana" class="form-parts"></dd>
+                    <dt class="form-title">会社名(任意)</dt>
+                    <dd class="form-item"><input type="text" name="company" class="form-parts"></dd>
+                    <dt class="form-title">カナ</dt>
+                    <dd class="form-item"><input type="text" name="company kana" class="form-parts"></dd>
+                    <dt class="form-title">メールアドレス</dt>
+                    <dd class="form-item"><input type="email" name="email" id="email" class="form-parts"></dd>
+                    <dt class="form-title check-radio">お問合せ内容</dt>
+                    <dd class="form-item"> 
+                      <select name="oppurtunity" id="oppurtunity" class="form-parts"> 
+                      <option disabled selected value=""></option>
+                      <option value="">資料送付希望</option>
+                      <option value="">クリエイターマッチング</option> 
+                      <option value="">デジタル広告のご相談</option> 
+                      <option value="">その他</option> 
+                      </select>
+                    </dd>
+                    <dt class="form-title check-radio">貴社商品・サービス内容</dt>
+                    <dd class="form-item"><textarea name="detail" id="detail" cols="30" rows="10" class="form-parts"></textarea></dd>
+                </dl>
+                <input type="submit" class="btn send" value="送信">
+              </form>
+            </div>
+          </section>      
+
+    </main>
+
+    <footer class="footer">
+        <small class="copyrights"> copyrights 2022 Creater's Wishlist Tokyo All Rights Reserved.</small>
+    </footer>
+    
+    <!-- ここから上にコードを書く -->
+    <!-- この中に記述していく -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+    
+    </html>
